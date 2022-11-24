@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T13:05:17 IST" name="Suite" finished-at="2022-11-24T13:06:41 IST" duration-ms="84859">
+    <groups>
+      <group name="Regression">
+        <method signature="ApplicationTest.verifyApplicationLoginFunctionality(java.lang.String,java.lang.String)[pri:2, instance:com.application.test.ApplicationTest@52af26ee]" name="verifyApplicationLoginFunctionality" class="com.application.test.ApplicationTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="ApplicationTest.verifyApplicationLoginFunctionality(java.lang.String,java.lang.String)[pri:2, instance:com.application.test.ApplicationTest@52af26ee]" name="verifyApplicationLoginFunctionality" class="com.application.test.ApplicationTest"/>
+        <method signature="ApplicationTest.verifyApplicationLogo()[pri:1, instance:com.application.test.ApplicationTest@52af26ee]" name="verifyApplicationLogo" class="com.application.test.ApplicationTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-11-24T13:05:17 IST" name="Test" finished-at="2022-11-24T13:06:41 IST" duration-ms="84859">
+      <class name="com.application.test.ApplicationTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:05:16 IST" name="setupReport" finished-at="2022-11-24T13:05:17 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:05:17 IST" name="setupBrowser" finished-at="2022-11-24T13:05:46 IST" duration-ms="29108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyApplicationLogo()[pri:1, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:05:46 IST" name="verifyApplicationLogo" finished-at="2022-11-24T13:05:46 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationLogo -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:05:46 IST" name="teardownBrowser" finished-at="2022-11-24T13:05:47 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:05:50 IST" name="setupBrowser" finished-at="2022-11-24T13:05:54 IST" duration-ms="4787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyApplicationLoginFunctionality(java.lang.String,java.lang.String)[pri:2, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:05:54 IST" name="verifyApplicationLoginFunctionality" data-provider="logindata" finished-at="2022-11-24T13:05:56 IST" duration-ms="1699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationLoginFunctionality -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:05:56 IST" name="teardownBrowser" finished-at="2022-11-24T13:05:57 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:05:57 IST" name="setupBrowser" finished-at="2022-11-24T13:06:02 IST" duration-ms="5153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyClickonAddtoCart(java.lang.String,java.lang.String)[pri:3, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:02 IST" name="verifyClickonAddtoCart" data-provider="logindata" finished-at="2022-11-24T13:06:03 IST" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickonAddtoCart -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:03 IST" name="teardownBrowser" finished-at="2022-11-24T13:06:03 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:03 IST" name="setupBrowser" finished-at="2022-11-24T13:06:07 IST" duration-ms="3975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyCart(java.lang.String,java.lang.String)[pri:4, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:07 IST" name="verifyCart" data-provider="logindata" finished-at="2022-11-24T13:06:08 IST" duration-ms="852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCart -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:08 IST" name="teardownBrowser" finished-at="2022-11-24T13:06:08 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:08 IST" name="setupBrowser" finished-at="2022-11-24T13:06:14 IST" duration-ms="6077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyClickedOnCheckoutBtn(java.lang.String,java.lang.String)[pri:5, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:14 IST" name="verifyClickedOnCheckoutBtn" data-provider="logindata" finished-at="2022-11-24T13:06:15 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickedOnCheckoutBtn -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:15 IST" name="teardownBrowser" finished-at="2022-11-24T13:06:15 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:15 IST" name="setupBrowser" finished-at="2022-11-24T13:06:20 IST" duration-ms="4396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="AddAllDetails(java.lang.String,java.lang.String)[pri:6, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:20 IST" name="AddAllDetails" data-provider="logindata" finished-at="2022-11-24T13:06:21 IST" duration-ms="1477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAllDetails -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:21 IST" name="teardownBrowser" finished-at="2022-11-24T13:06:21 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:21 IST" name="setupBrowser" finished-at="2022-11-24T13:06:26 IST" duration-ms="4777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyClickOnContinue(java.lang.String,java.lang.String)[pri:7, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:26 IST" name="verifyClickOnContinue" data-provider="logindata" finished-at="2022-11-24T13:06:28 IST" duration-ms="1474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnContinue -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:28 IST" name="teardownBrowser" finished-at="2022-11-24T13:06:28 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:28 IST" name="setupBrowser" finished-at="2022-11-24T13:06:32 IST" duration-ms="3853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyClickOnFinishBtn(java.lang.String,java.lang.String)[pri:8, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:32 IST" name="verifyClickOnFinishBtn" data-provider="logindata" finished-at="2022-11-24T13:06:33 IST" duration-ms="1686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnFinishBtn -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:33 IST" name="teardownBrowser" finished-at="2022-11-24T13:06:34 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:34 IST" name="setupBrowser" finished-at="2022-11-24T13:06:39 IST" duration-ms="5118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifySuccessfullyCompleted(java.lang.String,java.lang.String)[pri:9, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:39 IST" name="verifySuccessfullyCompleted" data-provider="logindata" finished-at="2022-11-24T13:06:41 IST" duration-ms="2039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullyCompleted -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:41 IST" name="teardownBrowser" finished-at="2022-11-24T13:06:41 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:com.application.test.ApplicationTest@52af26ee]" started-at="2022-11-24T13:06:42 IST" name="teardownReport" finished-at="2022-11-24T13:06:42 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownReport -->
+      </class> <!-- com.application.test.ApplicationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
